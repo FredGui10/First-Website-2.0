@@ -1,14 +1,34 @@
 body {
-  background-color: #f0f8ff;
-  font-family: sans-serif;
-  text-align: center;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  font-family: Arial, sans-serif;
+  text-align: center; /* center text */
+}
+
+/* Container to stack items vertically */
+.page-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Logo style */
+.logo {
+  max-width: 200px; /* adjust size */
+  height: auto;
+  margin-bottom: 20px; /* space below logo */
 }
 
 h1 {
   color: darkblue;
+  margin-bottom: 10px;
 }
 
 p {
-  color: darkslategray;
+  color: #333;
   font-size: 18px;
 }
