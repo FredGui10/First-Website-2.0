@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>All Posts • My Refugee Journey</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="index.html">My Journey</a>
+      <div class="links">
+        <a class="active" href="posts.html">Posts</a>
+        <a href="about.html">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1>All Posts</h1>
+    <ul class="post-list">
+      <li>
+        <a href="posts/first-days.html">My First Days in Hamburg</a>
+        <span class="meta">• Sept 1, 2025</span>
+      </li>
+      <li>
+        <a href="posts/finding-community.html">Finding Community</a>
+        <span class="meta">• Sept 8, 2025</span>
+      </li>
+    </ul>
+  </main>
+
+  <footer class="site-footer"><p>&copy; <span id="year"></span> My Refugee Blog</p></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>

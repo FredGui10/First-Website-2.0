@@ -1,21 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>My Test Page</title>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Refugee Journey in Hamburg</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <div class="page-content">
-    <!-- Logo -->
-    <img src="images/Real_Madrid_Logo.jpg" alt="Real Madrid Logo" class="logo">
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="index.html">My Journey</a>
+      <div class="links">
+        <a href="posts.html">Posts</a>
+        <a href="about.html">About</a>
+      </div>
+    </nav>
+  </header>
 
-    <!-- Heading -->
-    <h1>This is a new project</h1>
+  <main class="container">
+    <section class="hero">
+      <h1>Stories from Hamburg</h1>
+      <p>Reflections on starting over — the people I met, struggles I faced, and moments of hope.</p>
+    </section>
 
-    <!-- Body text -->
-    <p>This will be my test page</p>
-  </div>
+    <section class="featured">
+      <h2>Latest post</h2>
+      <article class="card">
+        <h3><a href="posts/first-days.html">My First Days in Hamburg</a></h3>
+        <p class="meta">Published: <time datetime="2025-09-01">Sept 1, 2025</time> • Hamburg</p>
+        <p>Arriving with a suitcase and a thousand questions. Here’s what surprised me the most…</p>
+        <a class="btn" href="posts/first-days.html">Read more</a>
+      </article>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> My Refugee Blog</p>
+  </footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
 </body>
 </html>
+
 
