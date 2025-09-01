@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Language Barriers • My Refugee Journey</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="../index.html">My Journey</a>
+      <div class="links">
+        <a href="../posts.html">Posts</a>
+        <a href="../about.html">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container narrow">
+    <article class="post">
+      <h1>Language Barriers</h1>
+      <p class="meta">Published: <time datetime="2025-09-15">Sept 15, 2025</time> • Hamburg</p>
+
+      <p>When I first arrived in Hamburg, the biggest challenge was not the cold weather or the new streets — it was the language. German words felt heavy on my tongue, and simple tasks like buying groceries or asking for directions became stressful.</p>
+
+      <p>I remember standing in line at the supermarket, rehearsing the sentence in my head again and again, worried I might pronounce it wrong. Sometimes I stayed quiet and just pointed, which made me feel small and invisible.</p>
+
+      <figure>
+        <img src="../images/language-class.jpg" alt="German language class with students and teacher">
+        <figcaption>German lessons became a key step in overcoming barriers.</figcaption>
+      </figure>
+
+      <p>But over time, I realized that every mistake was part of the learning journey. Some people corrected me kindly, and others simply smiled, encouraging me to keep trying. Attending language classes helped me not only learn words, but also meet others with the same struggles.</p>
+
+      <p>Now, every new word I learn feels like building a small bridge — one that connects me to this city and its people.</p>
+
+      <p><a class="btn" href="../posts.html">← Back to all posts</a></p>
+      <nav class="post-nav" aria-label="Post navigation">
+  <a href="finding-community.html" rel="prev">← Previous: Finding Community</a>
+  <span></span>
+</nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> My Refugee Blog</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

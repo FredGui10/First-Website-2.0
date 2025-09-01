@@ -3,6 +3,16 @@
   --brand:#2563eb; --card:#ffffff; --border:#e5e7eb;
   --radius:14px; --shadow:0 10px 25px rgba(2,6,23,.08);
 }
+.post-nav{
+  display:flex; justify-content:space-between; gap:1rem; margin-top:2rem;
+  padding-top:1rem; border-top:1px solid var(--border);
+}
+.post-nav a{
+  display:inline-block; padding:.5rem .75rem; border-radius:10px;
+  background:#eef2ff; color:var(--brand); text-decoration:none;
+}
+.post-nav a:hover{ filter:brightness(.95); }
+.post-nav .spacer{ flex:1; }
 *{box-sizing:border-box}
 body{margin:0;font-family:system-ui,Arial,sans-serif;color:var(--text);background:linear-gradient(#f1f5f9,var(--bg))}
 img{max-width:100%;display:block;border-radius:12px}

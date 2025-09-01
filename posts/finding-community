@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Finding Community • My Refugee Journey</title>
+  <link rel="stylesheet" href="../style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <nav class="container nav">
+      <a class="brand" href="../index.html">My Journey</a>
+      <div class="links">
+        <a href="../posts.html">Posts</a>
+        <a href="../about.html">About</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container narrow">
+    <article class="post">
+      <h1>Finding Community</h1>
+      <p class="meta">Published: <time datetime="2025-09-08">Sept 8, 2025</time> • Hamburg</p>
+
+      <p>At first, I felt very alone in a new city. The language, the rules, and the streets were all unfamiliar. But step by step, I started to find people who made Hamburg feel less cold.</p>
+
+      <p>It began at a community center where volunteers organized German classes. There, I met others who were also starting their lives over. We laughed at our mistakes, shared food, and exchanged stories from our homes.</p>
+
+      <figure>
+        <img src="../images/community.jpg" alt="People sitting together in a community center">
+        <figcaption>A welcoming community center in Hamburg.</figcaption>
+      </figure>
+
+      <p>Slowly, Hamburg started to feel more like home — not because of the buildings, but because of the people who reached out with kindness. This taught me that belonging doesn’t come overnight, but with connection.</p>
+
+      <p><a class="btn" href="../posts.html">← Back to all posts</a></p>
+      <nav class="post-nav" aria-label="Post navigation">
+  <a href="first-days.html" rel="prev">← Previous: My First Days in Hamburg</a>
+  <a href="language-barriers.html" rel="next">Next: Language Barriers →</a>
+</nav>
+    </article>
+  </main>
+
+  <footer class="site-footer">
+    <p>&copy; <span id="year"></span> My Refugee Blog</p>
+  </footer>
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
